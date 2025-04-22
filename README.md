@@ -1,16 +1,47 @@
-# todo_list
+ # 📝 TaskNest - Cross-Platform To-Do App
 
-A new Flutter project.
+TaskNest is a clean and minimalistic To-Do application built using **Flutter**. It supports **light/dark mode**, local storage using **Hive**, and state management with **Provider**. This project is designed as part of an intermediate-level Flutter assignment.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📋 Task List & Detailed View
+- ➕ Add / ✏️ Edit / 🗑️ Delete Tasks
+- 🌙 Light & Dark Mode Toggle
+- 💾 Local Storage with Hive
+- ⚙️ State Management using Provider
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎯 Stretch Goals (Optional Enhancements)
+
+- 🔔 Deadline Notifications (via `flutter_local_notifications`)
+- 📅 Calendar View (via `table_calendar`)
+
+---
+
+## 📱 Screenshots
+
+*(Add screenshots of your app here once you have them)*
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Flutter (Dart)
+- **State Management:** Provider
+- **Local Storage:** Hive
+- **UI:** Material Design
+
+---
+
+## 📁 Project Structure
+
+```bash
+/lib
+  ├── models/          # Task model (Hive adapter)
+  ├── providers/       # Provider classes
+  ├── screens/         # Task List and Task Details UI
+  ├── widgets/         # Reusable widgets (e.g., TaskTile)
+  └── main.dart        # App entry point
