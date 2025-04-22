@@ -37,7 +37,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('To-Do List'),
+        title: const Text('Task Nest'),
         centerTitle: true,
         actions: [
           IconButton(
