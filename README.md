@@ -19,11 +19,6 @@ TaskNest is a clean and minimalistic To-Do application built using **Flutter**. 
 - 🔔 Deadline Notifications (via `flutter_local_notifications`)
 - 📅 Calendar View (via `table_calendar`)
 
----
-
-## 📱 Screenshots
-
-*(Add screenshots of your app here once you have them)*
 
 ---
 
